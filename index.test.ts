@@ -1,6 +1,6 @@
-import { main } from "../index"
+import { main } from "./index"
 import Web3 from "web3"
-import { mockAccount } from "../__mocks__/web3"
+import { mockAccount } from "./__mocks__/web3"
 
 jest.mock('web3')
 
